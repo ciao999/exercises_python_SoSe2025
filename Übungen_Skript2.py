@@ -31,3 +31,22 @@ n = 24*60*365
 
 A = P * (1 + i/n)**(t*n)
 print(A)
+
+#Berechne die Fläche F eines Kreises mit Radiud r 1
+from math import pi
+r = 1
+F = pi*r**2
+print(F)
+
+
+#Berechne den Zukunftswert A von 1€ P in einem Jahr t die kontinuierlich
+# mit einem jährlichen Zinssatz i von 100% verzinst wird
+
+from math import *
+
+P = 1
+t = 1
+i = 1
+
+A = P*exp(i*t)
+print(A)
